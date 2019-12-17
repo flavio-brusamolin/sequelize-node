@@ -1,0 +1,38 @@
+{
+  "name": "sequelize-node",
+  "version": "1.0.0",
+  "description": "A simple Node.js application using Sequelize ORM.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlavioBrusamolin/sequelize-node.git"
+  },
+  "keywords": [],
+  "author": "Flávio Brusamolin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FlavioBrusamolin/sequelize-node/issues"
+  },
+  "homepage": "https://github.com/FlavioBrusamolin/sequelize-node#readme",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "sequelize-cli": "^5.5.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^7.15.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.3"
+  }
+}

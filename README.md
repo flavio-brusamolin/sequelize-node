@@ -1,2 +1,3 @@
 # sequelize-node
-A simple Node.js application using Sequelize ORM. 
+
+A simple Node.js application using Sequelize ORM.
